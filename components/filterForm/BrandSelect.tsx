@@ -40,7 +40,7 @@ export default function BrandSelect({field, onChange, values, displayLimit, idsP
 
 	return (
 		<div className={'mb-3'}>
-			<label className='form-label'>Brand</label>
+			<label className='form-label'>Marca</label>
 			<BrandCases
 				manufacturers={visibleBrands}
 				onInput={onInput}
@@ -66,7 +66,7 @@ export default function BrandSelect({field, onChange, values, displayLimit, idsP
 						href='#'
 						onClick={handleShowMore}
 					>
-						<>{showMore ? 'Show less' : 'Show all'}</>
+						<>{showMore ? 'Mostrar Menos' : 'Mostrar Tudo'}</>
 					</a>
 				</div>
 			</>}

@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 export default function FooterContacts() {
 	return (
 		<>
-			<h3 className='page-footer__header'>Contact Us</h3>
+			<h3 className='page-footer__header'>Contato</h3>
 			<p className='page-footer__icon-w-link'>
 				<span className='icon'>
 					<FontAwesomeIcon icon={faWhatsapp}/>
@@ -17,7 +17,7 @@ export default function FooterContacts() {
 				<span className='icon'>
 					<FontAwesomeIcon icon={faMapMarkerAlt}/>
 				</span>
-				<a className='link' href='#'>1 infinite loop, Cupertino, CA 95014</a>
+				<a className='link' href='#'>Tem loja fisica?</a>
 			</p>
 			<p className='page-footer__icon-w-link'>
 				<span className='icon'>

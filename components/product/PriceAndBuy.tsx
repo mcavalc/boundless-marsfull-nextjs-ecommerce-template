@@ -58,20 +58,20 @@ export default function ProductPriceAndBuy({product, selectedVariant, setError, 
 	return (
 		<div className='price-and-buy'>
 			{price?.price && <p className={'price-and-buy__price'}>
-				{price.isFrom && <span className={'price-and-buy__from'}>From:</span>}
+				{price.isFrom && <span className={'price-and-buy__from'}>De:</span>}
 				<span className={clsx('price-and-buy__current', {'has-old': price.oldPrice})}>
 					{formatCurrency(price.price)}
 				</span>
 				{price.oldPrice && <span className={'price-and-buy__old'}>{formatCurrency(price.oldPrice)}</span>}
 			</p>}
 			{benefit && <p className={'price-and-buy__benefit'}>
-				<label className={'price-and-buy__benefit-label'}>You save:</label>
+				<label className={'price-and-buy__benefit-label'}>Economia:</label>
 				<span className={'price-and-buy__benefit-value'}>{formatCurrency(benefit)}</span>
 			</p>}
 			{(!product.has_variants || selectedVariant) && <>
 				<p className={clsx('price-and-buy__stock', {'in': isInStock, 'out': !isInStock})}>
-					{isInStock && 'In stock'}
-					{!isInStock && 'Out of stock'}
+					{isInStock && 'Tem no Estoque'}
+					{!isInStock && 'Esgotado'}
 				</p>
 				{(product.sku || selectedVariant?.sku) && <p>
 					SKU: <span className='text-muted'>{selectedVariant?.sku || product.sku}</span>
@@ -86,7 +86,7 @@ export default function ProductPriceAndBuy({product, selectedVariant, setError, 
 						className={'btn btn-action btn-anim btn-lg'}
 						onClick={onBuyBtnClicked}
 					>
-						<FontAwesomeIcon icon={faCartPlus} /> Buy
+						<FontAwesomeIcon icon={faCartPlus} /> Comprar
 					</button>
 				</div>
 			</div>}

@@ -30,7 +30,7 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 		<MainLayout mainMenu={mainMenu} footerMenu={footerMenu} basicSettings={basicSettings}>
 			<div className='container-xxl'>
 				<MainPageSlider />
-				<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Boundless store</h1>
+				<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Piramide Imports</h1>
 				<ProductsList
 					products={products}
 					className={'page-block'}
@@ -40,19 +40,19 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 			<TextWithIcons
 				columns={[
 					{
-						icon:  <FontAwesomeIcon icon={faBug} className={'text-with-icons__icon'} />,
-						title: 'Does not slip in the hands',
-						comment: 'Anti-slip coating - for reliability.'
+						icon:  <FontAwesomeIcon icon={faSmile} className={'text-with-icons__icon'} />,
+						title: 'Entrega Rápida',
+						comment: 'Transparentes e confipaveis com os clientes.'
 					},
 					{
 						icon:  <FontAwesomeIcon icon={faShieldAlt} className={'text-with-icons__icon'} />,
-						title: 'Extra phone protection',
-						comment: 'Anti-slip coating - for reliability.'
+						title: 'Informações protegidas',
+						comment: 'Prezamos pela sua segurança.'
 					},
 					{
 						icon:  <FontAwesomeIcon icon={faSmile} className={'text-with-icons__icon'} />,
-						title: 'Looks nice',
-						comment: 'With our cases your phone look even better than without.'
+						title: 'Foco no Cliente',
+						comment: 'Sim! Te atender bem é a nossa PRIORIDADE'
 					},
 				]}
 				fullWidth={true}
@@ -61,11 +61,11 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 			<div className='container-xxl'>
 				<ProductsSliderByQuery
 					query={{collection: ['main-page'], sort: 'in_collection'}}
-					title={'Special offers:'}
+					title={'Ofertas Especiais:'}
 					wrapperClassName='page-block'
 				/>
 				<div className={'page-block'}>
-					<h2 className={'text-center mb-4'}>Our customers love us:</h2>
+					<h2 className={'text-center mb-4'}>Amados pelos Clientes:</h2>
 					<Reviews
 						reviews={[
 							{

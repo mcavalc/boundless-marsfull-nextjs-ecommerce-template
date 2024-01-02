@@ -91,12 +91,12 @@ export default function ProductPage({data: {product, categoryParents, mainMenu, 
 				</div>
 				<ProductsSliderByQuery
 					query={similarQuery as IGetProductsParams}
-					title='Similar products'
+					title='Produtos Similares'
 					wrapperClassName='page-block'
 				/>
 				<ProductsSliderByQuery
 					query={relatedQuery as IGetProductsParams}
-					title='Frequently Bought Together'
+					title='Sempre Compram Juntos'
 					wrapperClassName='page-block'
 				/>
 			</div>

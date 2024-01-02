@@ -23,12 +23,15 @@ export default function MarsLogoRow() {
 			<div className={'container-xxl mars-logo-row__container'}>
 				<div className={'mars-logo-row__logo-wrapper'}>
 					<Link href={'/'} className={'mars-logo-row__logo'}>
-						<span>Brand Shop</span>
-						{/* <img src={logoImg.src} alt={'Brand Shop'} /> */}
+						<span></span>
+						 <img src={'/logo.webp'} 
+						 width={100}
+						 height={100}
+						 alt={'Piramide Imports'} />
 					</Link>
 				</div>
 				<div className={'mars-logo-row__welcome'}>
-					Welcome to our shop. We are working for you!
+					Seja Bem Vindo. Estamos trabalhando por você!
 				</div>
 				<div className={'mars-logo-row__at-right'}>
 					<HeaderCart icon={<span className={'mars-logo-row__cart-icon'}><FontAwesomeIcon icon={faShoppingCart} /></span>}/>
