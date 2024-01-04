@@ -14,6 +14,10 @@ export default function FooterAbout({companyTitle}: {companyTitle?: string}) {
 			</div> */}
 			<div className='page-footer__company-info'>
 				<p className='title'>{title}</p>
+				<p>
+				<strong>CNPJ:</strong> 12.411.474.0001-05
+			</p>
+
 			</div>
 			<div className='page-footer__disclaimer'>
 			Este site e seu conteúdo são fornecidos 'como estão' e 'conforme disponíveis', sem qualquer garantia ou representação de qualquer tipo, seja expressa ou implícita.
