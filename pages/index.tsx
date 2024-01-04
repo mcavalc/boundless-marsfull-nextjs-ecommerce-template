@@ -16,6 +16,7 @@ import ProductsSliderByQuery from '../components/ProductsSliderByQuery';
 import TextWithIcons from '../components/TextWithIcons';
 import {faBug} from '@fortawesome/free-solid-svg-icons/faBug';
 import {faShieldAlt} from '@fortawesome/free-solid-svg-icons/faShieldAlt';
+import {faShippingFast} from '@fortawesome/free-solid-svg-icons/faShippingFast';
 import {faSmile} from '@fortawesome/free-solid-svg-icons/faSmile';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Reviews from '../components/Reviews';
