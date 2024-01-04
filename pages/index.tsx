@@ -40,7 +40,7 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 			<TextWithIcons
 				columns={[
 					{
-						icon:  <FontAwesomeIcon icon={faSmile} className={'text-with-icons__icon'} />,
+						icon:  <FontAwesomeIcon icon={faShippingFast} className={'text-with-icons__icon'} />,
 						title: 'Entrega Rápida',
 						comment: 'Transparentes e confipaveis com os clientes.'
 					},
