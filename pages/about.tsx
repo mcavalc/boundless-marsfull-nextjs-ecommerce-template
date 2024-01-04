@@ -14,7 +14,7 @@ export default function ShippingPage({mainMenu, footerMenu}: IPageProps) {
 					A história da Piramide Imports é uma jornada de paixão e dedicação ao comércio. Tudo começou com o pai, um pioneiro no ramo, que se dedicou a vender seus produtos no vibrante centro de São Paulo, percorrendo locais como a famosa Santa Ifigênia e diversas outras galerias pela cidade. Sua determinação e amor pelo comércio marcaram o início de uma trajetória inspiradora.
 					</p>
 					<p>
-					Hoje, a missão é continuada pelos filhos, que herdaram não apenas o negócio, mas também a paixão do pai. Eles estão levando a Piramide Imports a novos horizontes, abraçando a era digital para expandir o alcance da empresa. Com o apoio da internet, agora atendemos todo o Brasil, operando incansavelmente 24 horas por dia, 7 dias por semana.	
+					Hoje, a missão é continuada pela filha, que herdara não apenas o negócio, mas também a paixão do pai. Com sua equipe, estão levando a Piramide Imports a novos horizontes, abraçando a era digital para expandir o alcance da empresa. Com o apoio da internet, agora atendemos todo o Brasil, operando incansavelmente 24 horas por dia, 7 dias por semana.	
 					</p>
 					<p>
 					Na Piramide Imports, somos apaixonados tanto por produtos nacionais quanto importados, e temos um carinho especial pela tecnologia. Essa paixão nos motiva a ir além, garantindo que oferecemos apenas o melhor aos nossos clientes. Nosso time de especialistas é meticuloso na escolha dos produtos, sempre buscando a melhor relação custo-benefício. Para nós, qualidade e acessibilidade andam de mãos dadas.	
